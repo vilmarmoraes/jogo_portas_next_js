@@ -34,8 +34,8 @@ function renderizarPorta() {
             {/*abaixo exemplo de como mais de uma classe css na mesma div*/}
             <div className={`${styles.estrutura} ${selecionada}`}>
                 {porta.fechada ? 
-                renderizarPorta() : porta.temPresente ? <Presente/> : false}
-
+                renderizarPorta() : 
+                porta.temPresente ? <Presente/> : false}
             </div>
             <div className={styles.chao}></div>
         </div>
