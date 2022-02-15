@@ -24,7 +24,7 @@ const [comPresente, setComPresente] = useState(1)
 
       <div>
         <Cartao>
-        <EntradaNumerica text="Qtde Portas?" 
+        <EntradaNumerica text="Porta com Presente?" 
           value={comPresente} 
           onChange={novaPortaComPresente => setComPresente(novaPortaComPresente)}/>
         </Cartao>
